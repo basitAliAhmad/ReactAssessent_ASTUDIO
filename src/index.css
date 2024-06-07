@@ -1,13 +1,51 @@
+
+@import url('https://fonts.cdnfonts.com/css/neutra-text-alt');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Neutra Text', sans-serif !important;
+  color: #322625;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.network-search-btn {
+  font-family: 'Neutra Text', sans-serif !important;
+  color: #322625;
+}
+
+.p-paginator-page {
+  font-family: 'Neutra Text', sans-serif;
+  font-size: 16px;
+  color: #322625;
+}
+
+
+.p-paginator-page.p-highlight {
+  background-color: white; /* Background color for the active page */
+  color: #322625; /* Text color for the active page */
+  border-radius: 5px; /* Add border-radius for the active page */
+  transform: translateY(-8px);
+}
+
+.p-paginator-page.p-link:hover {
+  background-color: white; /* Hover background color */
+}
+
+.p-datatable  {
+  font-family: 'Neutra Text', sans-serif;
+  border: 1px solid #ebebeb;
+  border-collapse: collapse;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: #c0e3e5;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+  background-color: #ebebeb;
+}
+
+.p-datatable th, .p-datatable td {
+  border: 1px solid #ebebeb; /* Inner cell borders */
 }
